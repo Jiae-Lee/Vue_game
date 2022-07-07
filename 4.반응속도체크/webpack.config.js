@@ -29,6 +29,7 @@ module.exports = {
     ],
     output: {
         filename: '[name].js', //또는 app.js [name]으로 하면 자동으로 들어감
-        path: path.join(__dirname, 'dist') //__dirname를 써주면 현재경로
+        path: path.join(__dirname, 'dist'), //__dirname를 써주면 현재경로
+        publicPath: '/dist',
     }
 }
